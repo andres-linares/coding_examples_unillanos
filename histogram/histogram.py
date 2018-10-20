@@ -16,5 +16,4 @@ for i in range(histograms):
 	for j in range(bars):
 		intensity = len(input())
 		bars_array.append(intensity)
-	print(bars_array)
 	show_histogram(i, bars, bars_array)
